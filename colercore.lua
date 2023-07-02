@@ -28,6 +28,7 @@ mainopens.Parent = mainopen
  loki.BackgroundTransparency = 1.000
  loki.Position = UDim2.new(-0.0529999994, 0, -0.244000003, 0)
  loki.Size = UDim2.new(0, 69, 0, 62)
+ // change loki.image 
  loki.Image = "https://i.pinimg.com/564x/08/25/06/082506876327d31cb742bdfa55ebef87.jpg"
  
  posto.Name = "posto"
@@ -3799,7 +3800,7 @@ end)
 
  
 --------------------------------------------------------------------
-local Library = Update:Window("FreeFrai HUB ","")
+local Library = Update:Window("buynCORE HUB ","")
 ------------------------------------------
 
 spawn(function()
@@ -4236,7 +4237,7 @@ Setting:Line()
 
 Setting:Button("Copy Discord Link",function()
  
- setclipboard("https://discord.gg/yPQarTm4")
+ setclipboard("https://discord.gg/D4AdTTAA")
  end)
 
 Setting:Seperator(" Setting ")
@@ -8755,7 +8756,7 @@ end)
 
 Weapon:Seperator(" God Human ")
 
-Weapon:Toggle("Auto_God_Human",_G.Auto_God_Human,function(value)
+Weapon:Toggle("Auto God Human",_G.Auto_God_Human,function(value)
  _G.Auto_God_Human = value
 end)
 end
